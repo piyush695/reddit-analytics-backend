@@ -19,7 +19,6 @@ from dotenv import load_dotenv
 load_dotenv()     # <--- THIS loads .env into environment variables
 from fastapi import FastAPI, Query, Body
 from fastapi.middleware.cors import CORSMiddleware
-from backend.config import db
 from datetime import datetime, timedelta
 from bson import ObjectId
 from collections import Counter, defaultdict
