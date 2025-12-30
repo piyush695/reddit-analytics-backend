@@ -27,6 +27,7 @@ import re
 import os
 from fastapi import FastAPI
 import json
+from config import db
 
 
 app = FastAPI(title="Reddit Data API", version="3.1")

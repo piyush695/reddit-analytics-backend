@@ -1,8 +1,7 @@
 # config.py
 from pymongo import MongoClient
-import os
 
-# Use your Atlas URI
+# Use your Atlas URI directly
 MONGO_URI = "mongodb+srv://reddituser:23172410@cluster0.drr2ppd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Name of your database
